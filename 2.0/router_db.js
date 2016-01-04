@@ -4,8 +4,8 @@ var router = express.Router();
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'deal.cpg8bvjgkezo.us-east-1.rds.amazonaws.com',
-  user     : 'root',
-  password : 'Linshuizhaohua!',
+  user     : '****',
+  password : '****',
   database : 'rest'
 });
 
